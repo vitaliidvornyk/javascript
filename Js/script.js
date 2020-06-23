@@ -21,5 +21,8 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-'use strict';
+const numberOfFilms = +promt('Сколько фильмов вы уже посмотрели?', '');
 
+const personalMovieDB = {
+    count: numberOfFilms,
+}
